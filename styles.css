@@ -15,6 +15,7 @@ img{
 #header-inner{
 	max-width: 900px;
 	margin: auto;
+	overflow: hidden;
 }
 
 #left-header{
@@ -58,6 +59,7 @@ img{
 	width: 24px;
 	background-image: url('fb_sprite.png');
 	background-size: 26px 905px;
+	margin-left: 10px;
 }
 /* This is specific to the friends div */
 .friends{
@@ -70,4 +72,21 @@ img{
 /* specific to the not div */
 .notifications{
 	background-position: 0 -238px;
+}
+
+.lock{
+	background-position: 0 -859px;
+	height: 16px;
+	/* this will override the social-icon margin */
+	margin-left: 10px;
+	/* padding-left: 10px; */
+	/* border-left: 1px solid #444; */
+}
+.down-arrow{
+	background-position: 0 -825px;
+	height: 16px;
+}
+.spacer{
+	line-height: 24px;
+	margin: 0 10px;
 }
