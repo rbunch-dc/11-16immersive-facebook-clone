@@ -90,3 +90,36 @@ img{
 	line-height: 24px;
 	margin: 0 10px;
 }
+
+#cover-photo-wrapper{
+	max-width: 900px;
+	margin: auto;
+	width: 100%;
+}
+
+#big-photo{
+	max-height: 350px;
+	overflow: hidden;
+}
+
+#big-photo img{
+	width: 100%;
+}
+
+#big-avatar{
+	float: left;
+}
+
+#avatar-name{
+	float: left;
+}
+#cover-buttons{
+	float: right;
+}
+#cover-menu{
+	float: left;
+}
+
+.cover-menu-item{
+	float: left;
+}
